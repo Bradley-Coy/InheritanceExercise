@@ -20,8 +20,15 @@ namespace Inheritance
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
 
+            Animal myAnimal = new Animal();
+            Console.WriteLine($"All animals have {myAnimal.sensoryOrgans}, {myAnimal.abilityToMove}, {myAnimal.internalDigestion}, and {myAnimal.sexualReproduction} ");
 
+            Bird myBird = new Bird();
+            Console.WriteLine($"All birds have {myBird.haveWings}, {myBird.haveFeathers}, {myBird.warmBlood}, and {myBird.laysEggs}.");
 
+            var myReptile1 = new Reptile();
+
+            // Console.WriteLine(myReptile);
 
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
